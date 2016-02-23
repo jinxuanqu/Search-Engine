@@ -1,0 +1,22 @@
+Project 1: Building a Hadoop based information retrieval system
+
+Name: Jinxuan Qu
+Email: jinxuaq@g.clemson.edu
+Project description:
+1. 3 index files
+uniword index on package hadoop.jinxuaq.uniword
+biword index on package hadoop.jinxuaq.biword
+uniword positional index on package hadoop.jinxuaq.uniwordPosition
+
+2. boolean search
+Based on uniword index: package hadoop.jinxuaq.booleanSearch
+Based on biword index: package hadoop.jinxuaq.biSearch
+Based on uniword positional index: package hadoop.jinxuaq.upSearch
+
+3.Interface
+Enter search value by using command line in pbs file.
+eg: $HADOOP_HOME/bin/hadoop jar $HADOOP_HOME/bi.jar hadoop.jinxuaq.biSearch.Search "scotland and" input/biIndex output/biIndex
+
+
+
+
